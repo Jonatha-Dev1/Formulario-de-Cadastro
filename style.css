@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    border: none;
+}
+
+body {
+   background-image: url('./img/maos\ digitando.jpg_fit=scale');
+   background-size: cover;
+   
+
+}
+
+.container {
+    min-height: 100vh;
+}
+
+span {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+#content {
+    width: 50vw;
+    margin-left: 5vh;
+    margin-top: 5vh;
+}
+
+main h1 {
+    width: auto;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    background-color: #003499;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    color: #FFF;
+}
+
+main {
+
+    text-align: center;
+}
+
+main .social-media a {
+    text-decoration: none;
+}
+
+main .social-media img {
+    width: 40px;
+    margin-bottom: 25px;
+    margin-left: 3rem;
+}
+
+main .social-media a:first-child img {
+    margin-left: 0;
+}
+
+#registro {
+    width: auto;
+    background-color: #003499;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+#nome label input {
+    width: 92%;
+    margin-left: 5px;
+}
+
+#dados input {
+    width: 25%;
+    margin-right: 50px;
+    margin-left: 5px;
+}
+
+input, select {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    border-radius: 5px;
+}
+
+#rua {
+    width: 65%;
+    margin-left: 5px;
+    margin-right: 21px;
+}
+
+#numero {
+    width: 15%;
+    margin-left: 5px;
+}
+
+#endereço2 input {
+    width: 32%;
+    margin-left: 5px;
+}
+
+#bairro {
+    margin-right: 18%;
+}
+
+#estado, #cep {
+    width: 30%;
+    margin-left: 5px;
+}
+
+#estado {
+    margin-right: 24%;
+}
+
+#contato input {
+    width: 27%;
+    margin-left: 5px;
+}
+
+#fixo {
+    margin-right: 10%;
+}
+
+form input[type="submit"] {
+    cursor: pointer;
+    width: 50%;
+    margin-top: 45px;
+    margin-left: 25%;
+    border: none;
+    border-radius: 32px;
+    background-color: #EC7000;
+    color: white;
+    font-size: 1.2rem;
+}
+
+section.imagens {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
